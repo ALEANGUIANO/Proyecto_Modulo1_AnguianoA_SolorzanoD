@@ -51,7 +51,7 @@ Variables de decisión (cantidades de cada material en kg/m³).
 
 --- 
 
-### 📌 **Descripción del Dataset**
+## 📌 **Descripción del Dataset**
 ### 🔍 Contexto y Origen
 Este dataset proviene de estudios sobre la resistencia del concreto en función de su composición. Se ha utilizado en múltiples investigaciones sobre el diseño óptimo de mezclas para mejorar la resistencia del material. La resistencia a la compresión es una de las propiedades más importantes del concreto, y su predicción permite optimizar su diseño, reduciendo costos y mejorando su desempeño estructural.
 
