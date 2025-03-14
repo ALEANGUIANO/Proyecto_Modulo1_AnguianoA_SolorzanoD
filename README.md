@@ -15,7 +15,7 @@ El objetivo es minimizar el costo de los materiales de la mezcla de concreto, as
 
 Nuestra función objetivo será:
 
-Costo total = Cc x Volumen de cemento + Cs x Volumen de escoria + Ca x Volumen de ceniza + Cw x Volumen de agua + Cp x Volumen de superplastificante + Cg x Volumen de agregado grueso + Cf x Volumen de agregado fino
+**Costo total = Cc x Volumen de cemento + Cs x Volumen de escoria + Ca x Volumen de ceniza + Cw x Volumen de agua + Cp x Volumen de superplastificante + Cg x Volumen de agregado grueso + Cf x Volumen de agregado fino**
 
 Donde:
 
