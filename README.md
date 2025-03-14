@@ -1,15 +1,6 @@
 # **Optimización de la Mezcla de Concreto para Máxima Resistencia y Menor Costo**
 ---
-## 🎯 **Objetivo general:**
-Determinar la combinación óptima de materiales en la mezcla de concreto que minimice costos y garantice la mayor resistencia posible.
 
-## 🎯 **Objetivos específicos:**
-- Analizar la relación entre los materiales utilizados y la resistencia obtenida.
-- Aplicar modelos matemáticos para predecir la resistencia a la compresión.
-- Implementar un modelo de optimización que minimice costos manteniendo altos niveles de resistencia.
-- Evaluar la viabilidad de las mezclas óptimas obtenidas
-
----
 # **Definición de la función a optimizar**
 El objetivo es minimizar el costo de los materiales de la mezcla de concreto, asegurando que la resistencia a la compresión sea igual o mayor a un valor objetivo.
 
@@ -68,6 +59,31 @@ Este conjunto de datos se ha utilizado en modelos de machine learning y en anál
 | **fineagg**    | Cantidad de agregado fino | kg/m³ |
 | **age**        | Edad del concreto al momento de la prueba | días |
 | **strength**   | Resistencia a la compresión | MPa |
+
+---
+
+## 📚 **Metodología**
+**Modelo de Optimización**: Para la optimización, el objetivo es minimizar el costo total de la mezcla de concreto mientras se cumplen las restricciones de resistencia.
+
+Esto, considerando los datos con los que se cuente en obra (por ponerlo en contexto real), para que en base a eso se calcule la mezcla óptima de tus materiales. Estos materiales los puedes modificar declarandolos en el **"punto_inicial ="** en el siguiente orden:
+- Cemento
+- Escoria/grava
+- Ceniza/Arena
+- Agua
+- Superplastificante
+- Agregados gruesos
+- Agregados finos
+  
+**Modelo de Regresión**: Se emplea un modelo de regresión basado en los datos del conjunto para predecir la resistencia a la compresión en función de la cantidad de materiales. Esta predicción es clave para ajustar las restricciones de resistencia.
+
+Se han empleado limitantes según las sigueintes normativas para asegurar que cuentas con los materiales necesarios para la correcta ejecución de tu mezcla:
+- ACI 318 (American Concrete Institute)
+- NMX-C-155 (Norma mexicana para diseño de concreto)
+- NTC Construcción de la CDMX
+
+De no contar con los materiales necesarios o no cumplir con alguno de los parametros indicados por la norma, aparecerá el siguiente mensaje: 
+
+**"❌ No se logró encontrar una solución óptima."**
 
 
 
