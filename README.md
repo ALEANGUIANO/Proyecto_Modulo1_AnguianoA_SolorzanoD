@@ -4,10 +4,11 @@
 Determinar la combinación óptima de materiales en la mezcla de concreto que minimice costos y garantice la mayor resistencia posible.
 
 ## 🎯 **Objetivos específicos:**
-Analizar la relación entre los materiales utilizados y la resistencia obtenida.
-Aplicar modelos matemáticos para predecir la resistencia a la compresión.
-Implementar un modelo de optimización que minimice costos manteniendo altos niveles de resistencia.
-Evaluar la viabilidad de las mezclas óptimas obtenidas
+- Analizar la relación entre los materiales utilizados y la resistencia obtenida.
+- Aplicar modelos matemáticos para predecir la resistencia a la compresión.
+- Implementar un modelo de optimización que minimice costos manteniendo altos niveles de resistencia.
+- Evaluar la viabilidad de las mezclas óptimas obtenidas
+
 ---
 # **Definición de la función a optimizar**
 El objetivo es minimizar el costo de los materiales de la mezcla de concreto, asegurando que la resistencia a la compresión sea igual o mayor a un valor objetivo.
